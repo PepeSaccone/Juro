@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgHeader {
+    width: 60%;
+    height: 70%;
+}
+
+.aHeader {
+    max-width: 60%;
+}
+
+.carousel-item {
+    width: 100%;
+    height: auto;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    vertical-align: center;
+}
+
+footer li {
+    margin: auto 1rem auto 1rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.accordion {
+    width: 75%;
+}
+
+.headerCartas {
+    text-align: center;
+    font-weight: 550;
+}
+
+.form {
+    width: 75%;
+    margin: auto;
+}
+
+
+@media (max-width: 450px) {
+    footer ul {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .carousel-item img{
+        height: 300px;
+        }
+}
